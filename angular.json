@@ -41,8 +41,10 @@
       }
     }
   },
-  "defaultProject": "ngx-translate-messageformat-compiler",
   "cli": {
-    "defaultCollection": "@angular-eslint/schematics"
+    "schematicCollections": [
+      "@angular-eslint/schematics"
+    ],
+    "analytics": "22305bbb-4b4e-4ca9-bbf9-cf531be945f3"
   }
 }

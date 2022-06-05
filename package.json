@@ -1,5 +1,5 @@
 {
-  "name": "ngx-translate-messageformat-compiler",
+  "name": "@spejik/ngx-translate-messageformat-compiler",
   "version": "5.0.1",
   "scripts": {
     "ng": "ng",
@@ -12,7 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lephyrus/ngx-translate-messageformat-compiler.git"
+    "url": "git+https://github.com/spejik/ngx-translate-messageformat-compiler.git"
+  },
+  "contributors": [
+    "spejik"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@spejik"
   },
   "keywords": [
     "angular",
@@ -36,25 +42,24 @@
     "tslib": "^2.3.1"
   },
   "peerDependencies": {
-    "@angular/core": "^13.0.0",
     "@messageformat/core": "^3.0.0",
     "@ngx-translate/core": "^14.0.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~13.0.3",
-    "@angular-eslint/builder": "13.0.1",
-    "@angular-eslint/eslint-plugin": "13.0.1",
-    "@angular-eslint/eslint-plugin-template": "13.0.1",
-    "@angular-eslint/schematics": "13.0.1",
-    "@angular-eslint/template-parser": "13.0.1",
-    "@angular/cli": "~13.0.3",
-    "@angular/common": "~13.0.2",
-    "@angular/compiler": "~13.0.2",
-    "@angular/compiler-cli": "~13.0.2",
-    "@angular/core": "~13.0.2",
-    "@angular/language-service": "~13.0.2",
-    "@angular/platform-browser": "~13.0.2",
-    "@angular/platform-browser-dynamic": "~13.0.2",
+    "@angular-devkit/build-angular": "^14.0.0",
+    "@angular-eslint/builder": "14.0.0-alpha.0",
+    "@angular-eslint/eslint-plugin": "14.0.0-alpha.0",
+    "@angular-eslint/eslint-plugin-template": "14.0.0-alpha.0",
+    "@angular-eslint/schematics": "14.0.0-alpha.0",
+    "@angular-eslint/template-parser": "14.0.0-alpha.0",
+    "@angular/cli": "^14.0.0",
+    "@angular/common": "^14.0.0",
+    "@angular/compiler": "^14.0.0",
+    "@angular/compiler-cli": "^14.0.0",
+    "@angular/core": "^14.0.0",
+    "@angular/language-service": "^14.0.0",
+    "@angular/platform-browser": "^14.0.0",
+    "@angular/platform-browser-dynamic": "^14.0.0",
     "@messageformat/core": "^3.0.0",
     "@ngx-translate/core": "^14.0.0",
     "@types/jasmine": "~3.10.2",
@@ -72,12 +77,12 @@
     "karma-coverage-istanbul-reporter": "~3.0.3",
     "karma-jasmine": "~4.0.1",
     "karma-jasmine-html-reporter": "^1.7.0",
-    "ng-packagr": "^13.0.8",
+    "ng-packagr": "^14.0.0",
     "prettier": "^2.5.0",
     "protractor": "~7.0.0",
     "rxjs": "~6.5.5",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "~4.4.4",
+    "typescript": "~4.7.3",
     "zone.js": "~0.11.4"
   }
 }
